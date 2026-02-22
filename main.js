@@ -44,7 +44,7 @@ var checkGridsFunction = function (board) {
   for (let box = 0; box < 9; box++) {
     const seen = new Set();
 
-    // Calculate all rows x cols possible for the sub-grids.
+    // Calculate all starting rows x cols possible for the sub-grids.
     const row = Math.floor(box / 3) * 3;
     const col = (box % 3) * 3;
 
